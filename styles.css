@@ -2,8 +2,8 @@ root {
   --cyber-black: rgb(0,0,0);
   --cyber-red: rgb(197,0,60);
   --cyber-maroon: rgb(136,4,37);
-  --cyber-yellow: (243,230,0);
-  --cyber-blue: (85,234,212);
+  --cyber-yellow: rgb(243,230,0);
+  --cyber-blue: rgb(85,234,212);
 }
 
 body {

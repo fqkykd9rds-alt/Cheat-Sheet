@@ -1,0 +1,33 @@
+body {
+  font-family: 'Noto Sans', Arial, sans-serif;
+  background-color: gainsboro;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: rebeccapurple;
+  text-align: center;
+  background-color: greengold;
+}
+
+table {
+  border: 2px solid darkorchid;
+  width: 80%;
+  margin: 0 auto;
+}
+
+thead {
+  background-color: plum;
+}
+
+td {
+  border-top: 1px solid darkorchid;
+}
+
+.code {
+  font-family: 'Share Tech Mono', monospace;
+  background-color: beige;
+}

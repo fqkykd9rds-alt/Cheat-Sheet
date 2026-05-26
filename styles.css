@@ -33,6 +33,8 @@ table {
 	/*border: 2px solid darkorchid;*/
 	width: 80%;
 	margin: 0 auto;
+	border-collapse: collapse;
+	text-align: left;
 }
 
 thead {
@@ -41,11 +43,10 @@ thead {
 }
 
 td {
-	/*border-top: 1px solid var(--) ;*/
+	background-color: var(--cyber-yellow);
 }
 
 .code {
 	font-family: 'Share Tech Mono', monospace;
-	background-color: var(--cyber-yellow);
 	color: var(--cyber-black);
 }

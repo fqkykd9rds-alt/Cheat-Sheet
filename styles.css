@@ -46,8 +46,7 @@ thead {
 	padding:10px, 0;
 }
 
-td .code {
-	background-color: var(--cyber-yellow);
+td {
 	padding: 10px 0;
 	
 }
@@ -56,4 +55,5 @@ td .code {
 	font-family: 'Share Tech Mono', monospace;
 	color: var(--cyber-black);
 	padding: 10px 0;
+	background-color: var(--cyber-yellow);
 }

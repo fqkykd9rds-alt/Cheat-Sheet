@@ -20,6 +20,7 @@ h1 {
 	text-align: center;
 	font-size: 32px;
 	background-color: var(--cyber-yellow);
+	padding: 10px, 0;
 }
 
 h2 {
@@ -27,6 +28,7 @@ h2 {
 	background-color: var(--cyber-blue);
 	text-align: center;
 	font-size: 24px;
+	
 }
 
 table {
@@ -35,21 +37,22 @@ table {
 	margin: 0 auto;
 	border-collapse: collapse;
 	text-align: left;
-	padding: 10px;
 }
 
 thead {
 	background-color: var(--cyber-blue);
 	color: var(--cyber-black);
 	height: 40px;
-	padding:10px;
+	padding:10px, 0;
 }
 
 td {
 	background-color: var(--cyber-yellow);
+	padding: 10px 0;
 }
 
 .code {
 	font-family: 'Share Tech Mono', monospace;
 	color: var(--cyber-black);
+	padding: 10px 0;
 }

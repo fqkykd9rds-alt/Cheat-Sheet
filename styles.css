@@ -46,9 +46,10 @@ thead {
 	padding:10px, 0;
 }
 
-td {
+td .code {
 	background-color: var(--cyber-yellow);
 	padding: 10px 0;
+	
 }
 
 .code {

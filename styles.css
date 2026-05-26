@@ -1,4 +1,5 @@
 :root {
+	box-sizing: border-box;
 	--cyber-black: rgb(0, 0, 0);
 	--cyber-red: rgb(197, 0, 60);
 	--cyber-maroon: rgb(136, 4, 37);
@@ -6,6 +7,7 @@
 	--cyber-blue: rgb(85, 234, 212);
 	--cyber-white rgb(255,255,255);
 }
+
 
 body {
 	font-family: 'Noto Sans', Arial, sans-serif;

@@ -12,7 +12,7 @@
 body {
 	font-family: 'Noto Sans', Arial, sans-serif;
 	background-color: var(--cyber-black);
-	color: var(--cyber-white)
+	color: var(--cyber-white);
 }
 
 h1 {
@@ -42,18 +42,18 @@ table {
 thead {
 	background-color: var(--cyber-blue);
 	color: var(--cyber-black);
-	height: 40px;
-	padding:10px, 0;
+	height: 100px;
+	padding:10px, 10px;
 }
 
 td {
-	padding: 10px 0;
+	padding: 10px, 10px;
 	
 }
 
 .code {
 	font-family: 'Share Tech Mono', monospace;
 	color: var(--cyber-black);
-	padding: 10px 0;
+	padding: 10px, 10px;
 	background-color: var(--cyber-yellow);
 }

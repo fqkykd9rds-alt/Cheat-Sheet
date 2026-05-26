@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-	color: var(--cyber-yellow)
+	color: var(--cyber-yellow);
 	text-align: center;
 	font-size: 32px;
 }

@@ -4,21 +4,25 @@
 	--cyber-maroon: rgb(136, 4, 37);
 	--cyber-yellow: rgb(243, 230, 0);
 	--cyber-blue: rgb(85, 234, 212);
+	--cyber-white rgb(255,255,255);
 }
 
 body {
 	font-family: 'Noto Sans', Arial, sans-serif;
 	background-color: var(--cyber-black);
+	color: var(--cyber-white)
 }
 
 h1 {
-	color: var(--cyber-yellow);
+	color: var(--cyber-black);
 	text-align: center;
 	font-size: 32px;
+	background-color: var(--cyber-yellow);
 }
 
 h2 {
-	color: var(--cyber-red);
+	color: var(--cyber-black);
+	background-color: var(--cyber-blue);
 	text-align: center;
 	font-size: 24px;
 }

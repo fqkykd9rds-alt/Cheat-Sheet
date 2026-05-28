@@ -5,8 +5,7 @@
 	--cyber-maroon: rgb(136, 4, 37);
 	--cyber-yellow: rgba(243, 230, 0, 0.8);
 	--cyber-blue: rgba(85, 234, 212, 0.8);
-	--cyber-white: rgba(255,255,255, 0.4
-					   );
+	--cyber-white: rgba(255,255,255, 0.4);
 }
 
 
@@ -22,6 +21,11 @@ h1 {
 	font-size: 40px;
 	background-color: var(--cyber-yellow);
 	padding: 10px 0;
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 10px
 }
 
 h2 {
@@ -29,41 +33,49 @@ h2 {
 	background-color: var(--cyber-blue);
 	text-align: center;
 	font-size: 24px;
-	padding: 10px
-	
+	padding: 10px 0;
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto;
+	border: 2px solid;
+	border-radius: 10px;
 }
 
 table {
-	/*border: 2px solid darkorchid;*/
+	border-collapse: separate;
+	border spacing: 0;
 	width: 80%;
 	margin: 0 auto;
-	/*border-collapse: collapse;*/
 	text-align: left;
-	border: 2px;
-	
+	padding-bottom: 40px;
 }
+
+table th, table td {
+ /* Remove any borders from our stylesheet. */
+ border: 0;
+
+ /* Use the spread value on the box-shadow to set the border width. */
+ box-shadow: 0 0 0 2px black;
+}
+
 
 thead {
 	background-color: var(--cyber-blue);
 	color: var(--cyber-black);
 	height: 50px;
-	border-radius: 20px;
 	text-align: center;
-	border-radius: 10px;
+	font-size: 20px;
 }
 
 td {
 	padding: 10px 10px;
 	font-weight: 600;
-	background-color: var(--cyber-white);
-	
-	
-	
+	background-color: var(--cyber-white);	
 }
 
 .code {
 	font-family: 'Share Tech Mono', monospace;
 	color: var(--cyber-black);
-	padding: 10px, 10px;
+	padding: 5px 10px;
 	background-color: var(--cyber-yellow);
 }

@@ -3,22 +3,23 @@
 	--cyber-black: rgb(0, 0, 0);
 	--cyber-red: rgb(197, 0, 60);
 	--cyber-maroon: rgb(136, 4, 37);
-	--cyber-yellow: rgb(243, 230, 0);
-	--cyber-blue: rgb(85, 234, 212);
-	--cyber-white: rgb(255,255,255);
+	--cyber-yellow: rgba(243, 230, 0, 0.8);
+	--cyber-blue: rgba(85, 234, 212, 0.8);
+	--cyber-white: rgba(255,255,255, 0.4
+					   );
 }
 
 
 body {
 	font-family: 'Noto Sans', Arial, sans-serif;
 	background-color: var(--cyber-black);
-	color: var(--cyber-white);
+	color: var(--cyber-black);
 }
 
 h1 {
 	color: var(--cyber-black);
 	text-align: center;
-	font-size: 32px;
+	font-size: 40px;
 	background-color: var(--cyber-yellow);
 	padding: 10px 0;
 }
@@ -28,6 +29,7 @@ h2 {
 	background-color: var(--cyber-blue);
 	text-align: center;
 	font-size: 24px;
+	padding: 10px
 	
 }
 
@@ -35,25 +37,33 @@ table {
 	/*border: 2px solid darkorchid;*/
 	width: 80%;
 	margin: 0 auto;
-	border-collapse: collapse;
+	/*border-collapse: collapse;*/
 	text-align: left;
+	border: 2px;
+	
 }
 
 thead {
 	background-color: var(--cyber-blue);
 	color: var(--cyber-black);
-	height: 100px;
-	padding:10px 10px;
+	height: 50px;
+	border-radius: 20px;
+	text-align: center;
+	border-radius: 10px;
 }
 
 td {
 	padding: 10px 10px;
+	font-weight: 600;
+	background-color: var(--cyber-white);
+	
+	
 	
 }
 
 .code {
 	font-family: 'Share Tech Mono', monospace;
 	color: var(--cyber-black);
-	padding: 10px 10px;
+	padding: 10px, 10px;
 	background-color: var(--cyber-yellow);
 }
